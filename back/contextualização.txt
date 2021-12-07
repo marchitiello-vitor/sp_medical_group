@@ -1,0 +1,44 @@
+tiposUsuario 
+idTipousuario (PK)
+tituloUsuario
+
+usuario
+idUsuario     (PK)
+idTipoUsuario (FK)
+nomeUsuario
+rg
+cpf
+endereço
+dataNasc
+telefone
+
+
+consulta
+idConsulta     (PK)
+dataConsulta   (D/H)
+idTipoConsulta (FK)
+idHospital     (FK)
+nomeConsulta
+descrição
+
+
+tiposConsulta  (CATEGORIA)
+idTipoConsulta (PK)
+tituloConsulta
+
+
+hospital
+idHospital (PK)
+cnpj
+nomeFantasia
+endereço
+
+presenca
+idPresenca (PK)
+idUsuario  (FK)
+IdConsulta (FK)
+idSituação (FK)
+
+situacao
+idsituacao (PK)
+descricao
