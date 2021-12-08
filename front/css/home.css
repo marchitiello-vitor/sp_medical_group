@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+
+.container nav {
+    display: flex;
+    justify-content: right;
+    background-color: #FFFFFF;
+    align-items: center;
+    width: 1200px;
+    height: 110px;
+}
+
+.container nav a {
+    margin-left: 72px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: Cormorant SC;
+}
+
+.banner {
+    display: flex;
+    background-color: #003405;
+    width: 1519px;
+    height: 420px;
+}
+
+.cadastrese {
+    margin: 75px 0px 0px 190px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+
