@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2? family = Cormorant + SC: wght @ 300 & display = swap');
 
 *{
     margin: 0;
@@ -23,23 +23,80 @@
 
 .container nav a {
     margin-left: 72px;
-    font-size: 45px;
+    font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    font-family: Cormorant SC;
+    font-family: 'Cormorant SC', serif;
 }
 
 .banner {
     display: flex;
-    background-color: #003405;
+    background-color: #00770C;
     width: 1519px;
     height: 420px;
 }
 
-.cadastrese {
+.inscrevase {
     margin: 75px 0px 0px 190px;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
+    font-family:'Cormorant SC', serif;
+    font-weight: 200;
+    color: white;
 }
 
+.botao {
+    margin-top: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 270px;
+    height: 45px;
+    background-color: white;
+}
+
+.inscrevase a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.transicao {
+    width: 1519px;
+    height: 60px;
+    background-color: black;
+}
+
+.container_somos {
+    display: flex;
+    height: 535px;
+    width: 1519px;
+    border-style: solid;
+    justify-content: center;
+}
+
+.somos {
+    justify-content: center;
+    margin-top: 40px;
+    height: 400px;
+    width: 500px;
+}
+
+.container_somos img {
+    margin: 194px 230px 0px 0px;
+    height: 336px;
+    width: 523px;
+}
+
+.somos p {
+    font-size: 30px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.container_localizacao{
+    display: flex;
+    height: 535px;
+    width: 1519px;
+    border-style: solid;
+}
