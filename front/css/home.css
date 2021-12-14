@@ -91,7 +91,7 @@
 
 .somos p {
     font-size: 30px;
-    font-family: 'Cormorant SC', serif;
+    
 }
 
 .container_localizacao{
@@ -99,4 +99,9 @@
     height: 535px;
     width: 1519px;
     border-style: solid;
+}
+
+.container_somos h2 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 40px;
 }
